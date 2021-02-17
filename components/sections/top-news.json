@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_top_news",
+  "info": {
+    "name": "TopNews",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FeaturedNews": {
+      "collection": "new"
+    }
+  }
+}

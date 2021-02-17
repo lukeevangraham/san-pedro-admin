@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ministries",
+  "info": {
+    "name": "Ministries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ministryName": {
+      "type": "string",
+      "required": true
+    },
+    "news": {
+      "via": "ministries",
+      "collection": "new"
+    }
+  }
+}

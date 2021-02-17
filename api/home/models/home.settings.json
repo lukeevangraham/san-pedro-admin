@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta.metadata"
+    },
+    "contentSections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.feature-rows-group",
+        "sections.pricing",
+        "sections.testimonials-group",
+        "sections.large-video",
+        "sections.top-news",
+        "sections.feature-columns-group",
+        "sections.hero",
+        "sections.bottom-actions",
+        "sections.rich-text"
+      ]
+    },
+    "news": {
+      "collection": "new"
+    }
+  }
+}
