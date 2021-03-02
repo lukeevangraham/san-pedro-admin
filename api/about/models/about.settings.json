@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "topText": {
+      "type": "string"
+    },
+    "topSideImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "historyText": {
+      "type": "richtext"
+    },
+    "pastorSectionTitle": {
+      "type": "string"
+    },
+    "leaderInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.leader-info"
+    },
+    "serviceSectionTitle": {
+      "type": "string"
+    },
+    "serviceInfo": {
+      "type": "richtext"
+    },
+    "locationInfo": {
+      "type": "richtext"
+    },
+    "familySectionTitle": {
+      "type": "string"
+    },
+    "ministryInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-column"
+    }
+  }
+}

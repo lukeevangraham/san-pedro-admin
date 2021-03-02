@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_verses",
+  "info": {
+    "name": "Verse",
+    "icon": "bible",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "scripture": {
+      "type": "richtext"
+    },
+    "reference": {
+      "type": "string"
+    }
+  }
+}

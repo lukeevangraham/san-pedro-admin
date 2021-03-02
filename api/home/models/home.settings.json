@@ -27,11 +27,36 @@
         "sections.feature-columns-group",
         "sections.hero",
         "sections.bottom-actions",
-        "sections.rich-text"
+        "sections.rich-text",
+        "sections.verse"
       ]
     },
     "news": {
       "collection": "new"
+    },
+    "featuredEvents": {
+      "collection": "event"
+    },
+    "topEvent": {
+      "model": "event"
+    },
+    "introBox": {
+      "type": "richtext"
+    },
+    "topVideoEmbed": {
+      "type": "text"
+    },
+    "photoShowcase": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "introTitle": {
+      "type": "string"
     }
   }
 }

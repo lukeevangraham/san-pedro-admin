@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "givings",
+  "info": {
+    "name": "giving",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "givingPageTitle": {
+      "type": "string"
+    },
+    "topButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button"
+    },
+    "topText": {
+      "type": "richtext"
+    },
+    "moreWaysToGive": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.more-ways-to-give"
+    }
+  }
+}

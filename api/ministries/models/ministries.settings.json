@@ -17,6 +17,10 @@
     "news": {
       "via": "ministries",
       "collection": "new"
+    },
+    "events": {
+      "via": "ministries",
+      "collection": "event"
     }
   }
 }

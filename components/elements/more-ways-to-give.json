@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_more_ways_to_gives",
+  "info": {
+    "name": "moreWaysToGive",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

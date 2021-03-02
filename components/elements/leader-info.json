@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_elements_leader_infos",
+  "info": {
+    "name": "leaderInfo",
+    "icon": "user-tie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "shortBio": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}
