@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_watch_columns",
+  "info": {
+    "name": "watchColumn",
+    "icon": "file-video"
+  },
+  "options": {},
+  "attributes": {
+    "columnTitle": {
+      "type": "string"
+    },
+    "columnBody": {
+      "type": "richtext"
+    }
+  }
+}

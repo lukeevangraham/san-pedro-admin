@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "watches",
+  "info": {
+    "name": "watch"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "topText": {
+      "type": "richtext"
+    },
+    "watchColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.watch-column"
+    }
+  }
+}

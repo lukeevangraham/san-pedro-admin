@@ -25,8 +25,8 @@
       "type": "string"
     },
     "ministries": {
-      "collection": "ministries",
       "via": "news",
+      "collection": "ministries",
       "dominant": true
     },
     "image": {

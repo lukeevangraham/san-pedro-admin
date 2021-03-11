@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_home_heroes",
+  "info": {
+    "name": "HomeHero",
+    "icon": "home"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "smallTextWithLink": {
+      "type": "richtext"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stewardship",
+      "handler": "stewardship.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stewardship",
+      "handler": "stewardship.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stewardship",
+      "handler": "stewardship.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

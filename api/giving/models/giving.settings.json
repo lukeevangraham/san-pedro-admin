@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.more-ways-to-give"
+    },
+    "bottomVerse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.verse"
     }
   }
 }

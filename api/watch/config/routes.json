@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/watch",
+      "handler": "watch.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/watch",
+      "handler": "watch.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/watch",
+      "handler": "watch.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

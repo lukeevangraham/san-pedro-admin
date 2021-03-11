@@ -57,6 +57,11 @@
     },
     "introTitle": {
       "type": "string"
+    },
+    "homeHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.home-hero"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "ministries",
   "info": {
-    "name": "Ministries"
+    "name": "Ministries",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,12 +16,36 @@
       "required": true
     },
     "news": {
-      "via": "ministries",
-      "collection": "new"
+      "collection": "new",
+      "via": "ministries"
     },
     "events": {
-      "via": "ministries",
-      "collection": "event"
+      "collection": "event",
+      "via": "ministries"
+    },
+    "leaderPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "ministryName"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
+    },
+    "displayOrder": {
+      "type": "integer"
     }
   }
 }

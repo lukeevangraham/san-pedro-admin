@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/finances",
+      "handler": "finances.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/finances",
+      "handler": "finances.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/finances",
+      "handler": "finances.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

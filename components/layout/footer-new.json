@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_layout_footer_news",
+  "info": {
+    "name": "footerNew",
+    "icon": "shoe-prints"
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "streetAddress": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "shortText": {
+      "type": "string"
+    }
+  }
+}

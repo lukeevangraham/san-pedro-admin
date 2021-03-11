@@ -50,6 +50,9 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.feature-column"
+    },
+    "thirdColumn": {
+      "type": "richtext"
     }
   }
 }

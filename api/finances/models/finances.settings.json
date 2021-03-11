@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "finances",
+  "info": {
+    "name": "finances"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}
