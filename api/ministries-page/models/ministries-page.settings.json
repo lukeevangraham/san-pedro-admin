@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "watches",
+  "collectionName": "ministries_pages",
   "info": {
-    "name": "watch",
+    "name": "ministriesPage",
     "description": ""
   },
   "options": {
@@ -11,16 +11,17 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "pageTitle": {
-      "type": "string"
-    },
     "topText": {
       "type": "richtext"
     },
-    "watchColumn": {
-      "type": "component",
-      "repeatable": true,
-      "component": "elements.watch-column"
+    "topImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     },
     "verse": {
       "type": "component",

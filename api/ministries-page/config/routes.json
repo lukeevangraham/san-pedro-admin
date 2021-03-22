@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ministries-page",
+      "handler": "ministries-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ministries-page",
+      "handler": "ministries-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ministries-page",
+      "handler": "ministries-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
