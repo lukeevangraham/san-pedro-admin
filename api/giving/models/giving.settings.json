@@ -31,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.verse"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
     }
   }
 }

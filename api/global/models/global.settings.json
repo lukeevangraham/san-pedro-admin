@@ -43,6 +43,9 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.footer"
+    },
+    "calendarCode": {
+      "type": "text"
     }
   }
 }
